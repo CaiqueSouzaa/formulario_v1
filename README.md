@@ -16,7 +16,7 @@ Ao responder às perguntas, não há uma maneira direta de filtrar as respostas 
 * Formulários
     - Visualizar - GET - http://localhost:3000/formularios
     - Criar novo - POST - http://localhost:3000/formularios
-        - body: {"nome": "Nome do formulário"}
+        - body: {"nome": "Nome do formulário", "descricao": "Descrição do formulário"}
 
 * Tipos
     - Visualizar - GET - http://localhost:3000/tipos
