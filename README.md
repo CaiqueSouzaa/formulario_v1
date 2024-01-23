@@ -29,7 +29,7 @@ Ao responder às perguntas, não há uma maneira direta de filtrar as respostas 
 * Respostas
     - Visualizar - GET - http://localhost:3000/respostas/formulario_id. Exemplo: /respostas/1
     - Criar novo - POST - http://localhost:3000/respostas/formulario_id. Exemplo: /respostas/1
-        body: {"respostas": [{"questao_id": 1, "resposta": "resposta da questão"}, {"questao_id": 4, "resposta": "resposta da questão"}]}
+          - body: {"respostas": [{"questao_id": 1, "resposta": "resposta da questão"}, {"questao_id": 4, "resposta": "resposta da questão"}]}
 
 
 # Futuro do Projeto
