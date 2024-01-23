@@ -24,7 +24,7 @@ Ao responder às perguntas, não há uma maneira direta de filtrar as respostas 
 * Questões
     - Visualizar - GET - http://localhost:3000/questoes/formulario_id. Exemplo: /questoes/1
     - Criar novo - POST - http://localhost:3000/questoes/formulario_id. Exemplo: /questoes/1
-        - body: {"tipo_id": 2, "obrigatorio": true, "questao": "Qual o seu nome"}
+        - body: {"tipo_id": 2, "obrigatorio": true, "questao": "Qual o seu nome?"}
 
 * Respostas
     - Visualizar - GET - http://localhost:3000/respostas/formulario_id. Exemplo: /respostas/1
